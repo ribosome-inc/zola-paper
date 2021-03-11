@@ -220,6 +220,11 @@
     justify-content: center;
     height: 320px;
     margin-bottom: var(--header-height);
+    pointer-events: none;
+
+    footer {
+      display: none;
+    }
   }
   .first-entry .entry-header {
     overflow: hidden;
